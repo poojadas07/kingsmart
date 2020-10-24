@@ -10,7 +10,7 @@ import { map } from "rxjs/operators";
   providedIn: "root",
 })
 export class ProductsService {
-  public url = environment.web_api_url_base;
+  public url = 'https://kingsmart.herokuapp.com/';
   constructor(private http: HttpClient) {}
 
   // Get all products
