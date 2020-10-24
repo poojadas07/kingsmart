@@ -3,8 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  web_api_url_base: 'https://kingsmart.herokuapp.com/',
+  production: false
 };
 
 /*
